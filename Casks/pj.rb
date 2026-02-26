@@ -3,7 +3,7 @@ cask "pj" do
   name "pj"
   desc "Manage parallel projects backed by git worktrees"
   homepage "https://github.com/kevdoran/projector"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "pj" do
   on_macos do
     on_intel do
       url "https://github.com/kevdoran/projector/releases/download/v#{version}/pj_darwin_amd64.tar.gz"
-      sha256 "ae2f3176a1459c27be371e9ddb471748124270cb400839fa8db2a4e6b0b4e740"
+      sha256 "a2ca7e65218c59be7e6c70280ceec1eff1a1a888cbb945b5ba782a0ae1fbb4ff"
     end
     on_arm do
       url "https://github.com/kevdoran/projector/releases/download/v#{version}/pj_darwin_arm64.tar.gz"
-      sha256 "dd8a33d24c2ad0e29d9cb99a611d37e67dabee255aa304e0c57dbcf5ad232106"
+      sha256 "d66175d6314f85f5db6de03ef6b8e04b9bed3dc84f685dab9ed7135693ee1e2b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kevdoran/projector/releases/download/v#{version}/pj_linux_amd64.tar.gz"
-      sha256 "f9ea9c594f0dc61b35d4b73b8c9de848dcddd0db09f02bdd996363fbc7bf0839"
+      sha256 "a40439601de044aff2ad0ecc6d3bb24c7f7bf3ae5772fe074c6b263306b7a2e1"
     end
     on_arm do
       url "https://github.com/kevdoran/projector/releases/download/v#{version}/pj_linux_arm64.tar.gz"
-      sha256 "6eee4d0805d6a2429eca35cfd11896afa7b6cbc7394c6cb6ec1ac39775e1d83b"
+      sha256 "5ea94a2f1df264ad59382e13d3c7988b766e755bf19e63d6b055ebcf9f408fd3"
     end
   end
 
