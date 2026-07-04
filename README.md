@@ -5,6 +5,7 @@ Homebrew formulae from kevdoran
 
 ```bash
 brew tap kevdoran/tap
+brew trust kevdoran/tap  # Homebrew 6+ requires trusting third-party taps
 brew install pj
 ```
 
