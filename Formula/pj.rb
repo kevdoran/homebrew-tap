@@ -1,8 +1,8 @@
 class Pj < Formula
   desc "Manage parallel projects backed by git worktrees"
   homepage "https://github.com/kevdoran/projector"
-  url "https://github.com/kevdoran/projector/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "4a0fedd0d1b622dbbdcb0cac6a8297b1c14276cba86c47afb4bae35b5335da7f"
+  url "https://github.com/kevdoran/projector/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "2a0b190677b3d39dda93df2309fa5fba5725a2ebadec69d54fa1c033b08209c3"
   license "Apache-2.0"
   head "https://github.com/kevdoran/projector.git", branch: "main"
 
